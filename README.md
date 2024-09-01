@@ -42,8 +42,8 @@ The purpose of this app is to:
 This project is currently in the initial planning and development phase. The README will be updated as the project progresses.
 
 ## Contact
-[Your Name] - [Your Email or GitHub profile link]
-Program: [Your University/College and Program Name]
+Ronda Cypret - RCypret-Mahach@Lindenwood.edu
+Program: College of Education & Human Services/ Curriculum & Instruction/ Initial Teacher Education with Lindenwood University
 
 ## Acknowledgments
 This project is being developed as part of an IRB Application by Dr Ronda Cypret with Lindenwood University.
