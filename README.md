@@ -67,6 +67,30 @@ https://files.eric.ed.gov/fulltext/EJ1111067.pdfLinks to an external site.
 
 Assessing and evaluating teacher preparation programs
 https://www.apa.org/ed/schools/teaching-learning/teacher-preparation-programs.pdfLinks to an external site.
+
+# Troubleshooting the Flutter Installation and Emulator Setup
+
+In this document, I will walk through the problems I encountered during the setup of Flutter and the external emulator (an old phone), and how I used AI (Claude) to resolve these issues.
+
+## 1. Pathway Error in Flutter
+
+### Problem:
+While installing Flutter, I encountered a pathway error that prevented the Flutter SDK from being recognized properly by the system.
+
+
+### Steps Taken to Resolve:
+
+1. I first checked that I had added the Flutter SDK to the system’s environment variables correctly.
+2. After verifying the path, I noticed there was a mistake in the directory path.
+3. I used **Claude (via Poe)** to assist me with the correct commands to fix the path. Claude suggested running a few commands to troubleshoot and verify the current environment setup:
+    ```bash
+    echo $PATH
+    ```
+4. Claude walked me through updating the environment variables on my system:
+    - I added the correct path to the system’s **Path** environment variable.
+5. Finally, I restarted my terminal, ran the Flutter doctor command, and the issue was resolved.
+   ```bash
+   flutter doctor
  
 ## Contact
 Ronda Cypret - RCypret-Mahach@Lindenwood.edu
