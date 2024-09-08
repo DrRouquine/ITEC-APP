@@ -40,6 +40,8 @@ The purpose of this app is to:
 
 ## Project Status
 This project is currently in the initial planning and development phase. The README will be updated as the project progresses.
+As of 9/8/2024- Installed Flutter, Visual Studio, VS Code User, Android Studio and Git.  Set up an old phone as my emulator and turned on the developer options.  
+Subscribed to Poe to address the "running out of credits way too fast" issue. 
 
 ## Resources
 Sources:
