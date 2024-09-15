@@ -79,7 +79,6 @@ In this document, I will walk through the problems I encountered during the setu
 ### Problem:
 While installing Flutter, I encountered a pathway error that prevented the Flutter SDK from being recognized properly by the system.
 
-
 ### Steps Taken to Resolve:
 
 1. I first checked that I had added the Flutter SDK to the system’s environment variables correctly.
@@ -93,7 +92,19 @@ While installing Flutter, I encountered a pathway error that prevented the Flutt
 5. Finally, I restarted my terminal, ran the Flutter doctor command, and the issue was resolved.
    ```bash
    flutter doctor
- 
+### Installed the following 
+1. Visual Studio Code
+2. Visual Studio 2022
+3. Android Studio
+
+### To Begin Building the App
+1. Using Windows Power Shell
+2. Command Palette
+### Built Sample App on old phone
+Used USB to attach an old phone and built a simple APP as provided by CodeLab
+YouTube: https://www.youtube.com/watch?v=8sAyPDLorek&t=3323s
+
+
 ## Contact
 Ronda Cypret - RCypret-Mahach@Lindenwood.edu
 Program: College of Education & Human Services/ Curriculum & Instruction/ Initial Teacher Education with Lindenwood University
