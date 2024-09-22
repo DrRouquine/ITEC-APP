@@ -1,0 +1,39 @@
+import 'package:flutter/material.dart';
+
+class AdmissionRequirementsScreen extends StatelessWidget {
+  const AdmissionRequirementsScreen({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Admission Requirements'),
+      ),
+      body: ListView(
+        padding: const EdgeInsets.all(16.0),
+        children: [
+          Text(
+            'Admission Requirements',
+            style: Theme.of(context).textTheme.headlineSmall,
+          ),
+          const SizedBox(height: 16),
+          _buildRequirement(context, '1. Complete a minimum of 50 credit hours of coursework'),
+          _buildRequirement(context, '2. Possess a minimum 2.75 cumulative GPA'),
+          _buildRequirement(context, '3. Complete the required general education courses'),
+          _buildRequirement(context, '4. Pass a criminal background check'),
+          // Add more requirements as needed
+        ],
+      ),
+    );
+  }
+
+  Widget _buildRequirement(BuildContext context, String text) {
+    return Padding(
+      padding: const EdgeInsets.only(bottom: 8.0),
+      child: Text(
+        text,
+        style: Theme.of(context).textTheme.bodyLarge,
+      ),
+    );
+  }
+}
