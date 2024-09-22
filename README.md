@@ -103,7 +103,9 @@ While installing Flutter, I encountered a pathway error that prevented the Flutt
 ### Built Sample App on old phone
 Used USB to attach an old phone and built a simple APP as provided by CodeLab
 YouTube: https://www.youtube.com/watch?v=8sAyPDLorek&t=3323s
-
+## Assignment 4:
+AI Assistance- Throughout this project, I've utilized AI to assist with:
+1. Code generation for the APP and Troubleshooting code errors with Flutter
 
 ## Contact
 Ronda Cypret - RCypret-Mahach@Lindenwood.edu
